@@ -91,7 +91,7 @@
   <!-- Fixed Header Content -->
   <div class="flex-1 overflow-hidden">
     <h1 class="text-3xl font-bold mb-6 text-center text-blue-700">
-      📘 Klassenbuch
+      📘 Tolkins Klassenbuch
     </h1>
 
     <div class="my-6 text-center">
@@ -284,5 +284,20 @@
     grid-template-columns: repeat(16, 1fr);
     width: 100%;
     table-layout: fixed;
+  }
+
+  /* Add smooth transitions for button hover effects */
+  button {
+    transition: all 0.3s ease-in-out;
+  }
+
+  button:hover {
+    transform: scale(1.05);
+  }
+
+  /* Optional: Add a glowing effect on hover */
+  button:focus,
+  button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   }
 </style>
